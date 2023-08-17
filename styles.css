@@ -1,0 +1,129 @@
+#principal{
+    background-color: rgb(160, 150, 150);
+}
+#Titulo{
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    border-style: double;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.presentation{
+    text-align: center;
+    font-size: 20px;
+}
+
+#Nome{
+    background-color: red;
+    border-style: dashed;
+    margin: 0px 20px;
+}
+
+#bornDate{
+    background-color: red;
+    border-style: dashed;
+    margin: 10px 20px;
+}
+
+#Course{
+    background-color: red;
+    border-style: dashed;
+    margin: 10px 20px;
+}
+
+.Rotine{
+    text-align: center;
+    border-style: ridge;
+    background-color: rgb(220, 210, 230);
+}
+
+#tituloRotina{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+}
+
+#pRotine{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.preferidosEMusicas{
+    text-align: center;
+    height: 30vh;
+    max-width: 90vw;
+    justify-content: space-evenly;
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardPreferidos{
+    border-style: ridge;
+    height: 20vh;
+    width: 40%;
+    margin: 1vw 1.25vw;
+    background-color: rgb(166, 246, 223);
+    float: left;
+}
+
+a:hover{
+    color: red;
+}
+
+#tituloMeuspreferidos{
+    margin: 8px;
+}
+
+#tituloBanda{
+    margin: 8px;
+}
+
+.Travel{
+    text-align: center;
+    background-color: rgb(240, 124, 140);
+    border-style: ridge;
+}
+
+#tituloViagens{
+    margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#viagensGerais{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+ul,ol{
+    display: block;
+    justify-content: space-evenly;
+}
+
+.nacionais{
+    border-style: groove;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.internacionais{
+    border-style: groove;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.Foods{
+    text-align: center;
+    background-color: rgb(94, 163, 109);
+    border-style: ridge;
+}
+
+.Hobbies{
+    text-align: center;
+    background-color: rgb(94, 163, 109);
+    border-style: ridge;
+}
